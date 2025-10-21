@@ -1,0 +1,26 @@
+[
+{
+  "directory": "/mnt/c/Users/Loïc Costiou/Desktop/Perso/Etude/ISIMA/ZZ3/CPP/TP_4_CPPP/build",
+  "command": "/usr/bin/c++   -Wall -Wextra -pedantic  -std=gnu++17 -o CMakeFiles/test.dir/test/catch.cpp.o -c \"/mnt/c/Users/Loïc Costiou/Desktop/Perso/Etude/ISIMA/ZZ3/CPP/TP_4_CPPP/test/catch.cpp\"",
+  "file": "/mnt/c/Users/Loïc Costiou/Desktop/Perso/Etude/ISIMA/ZZ3/CPP/TP_4_CPPP/test/catch.cpp",
+  "output": "CMakeFiles/test.dir/test/catch.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/Loïc Costiou/Desktop/Perso/Etude/ISIMA/ZZ3/CPP/TP_4_CPPP/build",
+  "command": "/usr/bin/c++  -I\"/mnt/c/Users/Loïc Costiou/Desktop/Perso/Etude/ISIMA/ZZ3/CPP/TP_4_CPPP/src\" -Wall -Wextra -pedantic  -std=gnu++17 -o CMakeFiles/tp4_mouchard.dir/test/test_mouchard.cpp.o -c \"/mnt/c/Users/Loïc Costiou/Desktop/Perso/Etude/ISIMA/ZZ3/CPP/TP_4_CPPP/test/test_mouchard.cpp\"",
+  "file": "/mnt/c/Users/Loïc Costiou/Desktop/Perso/Etude/ISIMA/ZZ3/CPP/TP_4_CPPP/test/test_mouchard.cpp",
+  "output": "CMakeFiles/tp4_mouchard.dir/test/test_mouchard.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/Loïc Costiou/Desktop/Perso/Etude/ISIMA/ZZ3/CPP/TP_4_CPPP/build",
+  "command": "/usr/bin/c++  -I\"/mnt/c/Users/Loïc Costiou/Desktop/Perso/Etude/ISIMA/ZZ3/CPP/TP_4_CPPP/src\" -Wall -Wextra -pedantic  -std=gnu++17 -o CMakeFiles/tp4_vecteur.dir/test/test_vecteur.cpp.o -c \"/mnt/c/Users/Loïc Costiou/Desktop/Perso/Etude/ISIMA/ZZ3/CPP/TP_4_CPPP/test/test_vecteur.cpp\"",
+  "file": "/mnt/c/Users/Loïc Costiou/Desktop/Perso/Etude/ISIMA/ZZ3/CPP/TP_4_CPPP/test/test_vecteur.cpp",
+  "output": "CMakeFiles/tp4_vecteur.dir/test/test_vecteur.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/Loïc Costiou/Desktop/Perso/Etude/ISIMA/ZZ3/CPP/TP_4_CPPP/build",
+  "command": "/usr/bin/c++  -I\"/mnt/c/Users/Loïc Costiou/Desktop/Perso/Etude/ISIMA/ZZ3/CPP/TP_4_CPPP/src\" -Wall -Wextra -pedantic  -std=gnu++17 -o CMakeFiles/tp4_test.dir/test/tp4_test.cpp.o -c \"/mnt/c/Users/Loïc Costiou/Desktop/Perso/Etude/ISIMA/ZZ3/CPP/TP_4_CPPP/test/tp4_test.cpp\"",
+  "file": "/mnt/c/Users/Loïc Costiou/Desktop/Perso/Etude/ISIMA/ZZ3/CPP/TP_4_CPPP/test/tp4_test.cpp",
+  "output": "CMakeFiles/tp4_test.dir/test/tp4_test.cpp.o"
+}
+]
