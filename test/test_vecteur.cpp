@@ -7,28 +7,28 @@
 int main(void) {
  complexe_t::stats();
 
- Vecteur v1;
- Vecteur v2;
+ Vecteur v1; // Constructeur par defaut x10
+ Vecteur v2; // Constructeur par defaut x10
 
  std::cout << std::endl << "v1 = " << v1 << std::endl;
  std::cout << "v2 = " << v2 << std::endl;
  complexe_t::stats();
 
- for (unsigned i = 0; i<v1.getTaille(); ++i) v1[i]=complexe_t(10*i,i*i);
- for (unsigned i = 0; i<v2.getTaille(); ++i) v2[i]=complexe_t(i,i+1);
+ for (unsigned i = 0; i<v1.getTaille(); ++i) v1[i]=complexe_t(10*i,i*i); // Constructeur had oc puis affectation par mouvement x10
+ for (unsigned i = 0; i<v2.getTaille(); ++i) v2[i]=complexe_t(i,i+1); // Constructeur had oc puis affectation par mouvement x10
 
  std::cout << std::endl << "v1 = " << v1 << std::endl;
  std::cout << "v2 = " << v2 << std::endl;
  complexe_t::stats();
 
- Vecteur v3 = v1;
+ Vecteur v3 = v1; // Constructeur par defaut puis affectation par copie x10
 
  std::cout << std::endl << "v3 = " << v3 << std::endl;
  complexe_t::stats();
 
- Vecteur v4;
+ Vecteur v4; // Constructeur par defaut x10
 
- v4=v1+v2;
+ v4=v1+v2; // Affectation par mouvement
 
  std::cout << std::endl << "v4 = " << v4 << std::endl;
  complexe_t::stats();

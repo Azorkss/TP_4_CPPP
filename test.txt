@@ -1,0 +1,44 @@
+Autotest mouchard
+
+x1 Constructeur ad Hoc
+
+x1 Constructeur ad Hoc
+
+x1 Constructeur de copie
+
+x1 Constructeur de mouvement
+
+x1 affectation par copie
+
+x1 Constructeur ad Hoc
+x1 affectation de mouvement
+
+Autotest vecteur (sauf mouvment)
+
+x10 Constructeur par defaut
+x10 Constructeur par defaut
+
+x10 Constructeur had oc
+x10 affectation par mouvement
+x10 Constructeur had oc
+x10 affectation par mouvement
+
+x10 Constructeur par defaut
+x10 affectation par copie
+
+x10 Constructeur par defaut
+x10 Constructeur par defaut
+x10 affectation par copie
+x10 Constructeur had oc
+x10 affectation par mouvement
+
+x10 Constructeur par defaut
+x10 Constructeur par defaut
+x10 affectation par copie
+x10 Constructeur had oc
+x10 affectation par mouvement
+x10 Constructeur par defaut
+x10 affectation par mouvment
+x10 Constructeur par had oc
+
+x10 Constructeur par copie
