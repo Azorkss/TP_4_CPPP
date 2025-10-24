@@ -42,3 +42,31 @@ x10 affectation par mouvment
 x10 Constructeur par had oc
 
 x10 Constructeur par copie
+
+Autotest vecteur (avec mouvment)
+
+x10 Constructeur par defaut
+x10 Constructeur par defaut
+
+x10 Constructeur had oc
+x10 affectation par mouvement
+x10 Constructeur had oc
+x10 affectation par mouvement
+
+x10 Constructeur par defaut
+x10 affectation par copie
+
+x10 Constructeur par defaut
+x10 Constructeur par defaut
+x10 Constructeur had oc
+x10 affectation par mouvement
+
+x10 Constructeur par defaut
+x10 Constructeur par defaut
+x10 Constructeur had oc
+x10 affectation par mouvement
+x10 Constructeur par defaut
+x10 affectation par mouvment
+x10 Constructeur par had oc
+
+x10 Constructeur par copie

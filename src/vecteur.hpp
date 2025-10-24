@@ -56,13 +56,14 @@ class Vecteur {
 
   //----------------------------------------------------------------------------Affectation mouvement
   Vecteur & operator=(Vecteur && v) {
-   if (this != &v) {
-    delete[] tableau_;
-    taille_ = v.taille_;
-    tableau_ = v.tableau_;
-    v.taille_ = 0;
-    v.tableau_ = nullptr;
+   if (this!=&v) {
+    if (tableau_) delete[] tableau_;
+    taille_=v.taille_;
+    tableau_=v.tableau_;
+    v.taille_=0;
+    v.tableau_=nullptr;
    }
+
    return *this;
   }
 };
