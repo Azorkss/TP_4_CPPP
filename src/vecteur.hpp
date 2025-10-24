@@ -36,6 +36,11 @@ class Vecteur {
    for (unsigned i = 0; i<taille_; ++i) tableau_[i]=v[i];
   }
 
+  Vecteur(Vecteur && v) : taille_(v.taille_),tableau_(v.tableau_) {
+   v.taille_=0;
+   v.tableau_=nullptr;
+  }
+
   //-------------------------------------------------------------------------------------Destructeur
   ~Vecteur() { if (tableau_) delete[] tableau_; }
 
@@ -48,12 +53,19 @@ class Vecteur {
 
    return *this;
   }
-};
 
-// Affectation par mouvement //----------------------------------------------------------------------
-Vecteur operator=(Vecteur && v) {
- return v;
-}
+  //----------------------------------------------------------------------------Affectation mouvement
+  Vecteur & operator=(Vecteur && v) {
+   if (this != &v) {
+    delete[] tableau_;
+    taille_ = v.taille_;
+    tableau_ = v.tableau_;
+    v.taille_ = 0;
+    v.tableau_ = nullptr;
+   }
+   return *this;
+  }
+};
 
 // Surcharge operateurs //--------------------------------------------------------------------------
 
